@@ -11,4 +11,8 @@ class Task {
    String initialDate() => _initialDate;
    String endDate() => _endDate;
    bool status() => _status;
+
+void toggleStatus() {
+  _status = !_status;
+}
 }
